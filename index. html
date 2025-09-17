@@ -1,0 +1,42 @@
+<html>
+<title>E-learning portal</title>
+<head>
+<body>
+<h1>E-learning portal</h1>
+<p>An E-learning portal is an online
+platform designedto deliver educational
+content and training programs via the
+internet<p>
+  <nav style="text-align: center; background-color: #0056b3; padding: 10px;">
+    <a href="#" style="color: white; margin: 15px; text-decoration: none;">Home</a>
+    <a href="#courses" style="color: white; margin: 15px; text-decoration: none;">Courses</a>
+    <a href="#contact" style="color: white; margin: 15px; text-decoration: none;">Contact</a>
+  </nav>
+
+  <section style="padding: 30px; text-align: center;">
+    <h2>About Us</h2>
+    <p>We provide free and simple learning materials for students around the world.</p>
+  </section>
+
+  <section id="courses" style="padding: 30px; background-color: #ffffff;">
+    <h2 style="text-align: center;">Our Courses</h2>
+    <ul style="list-style-type: none; padding: 0; text-align: center;">
+      <li>📘 HTML for Beginners</li>
+      <li>📗 CSS Basics</li>
+      <li>📙 Introduction to JavaScript</li>
+      <li>📕 Python Programming</li>
+    </ul>
+  </section>
+
+  <section id="contact" style="padding: 30px; text-align: center;">
+    <h2>Contact Us</h2>
+    <p>Email: contact@elearning.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>
+
+  <footer style="text-align: center; background-color: #007bff; color: white; padding: 10px;">
+    &copy; 2025 Simple E-Learning Portal
+  </footer>
+
+</body>
+</html>
