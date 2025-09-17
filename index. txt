@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple E-Learning Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .course {
+            background: white;
+            border-radius: 5px;
+            margin: 15px 0;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .course h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .buttons {
+            margin-top: 15px;
+        }
+        .buttons a {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to E-Learn</h1>
+    <p>Your simple online learning platform</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>Available Courses</h2>
+
+    <div class="course">
+        <h3>HTML Basics</h3>
+        <p>Learn the fundamentals of HTML and how to build your first webpage.</p>
+    </div>
+
+    <div class="course">
+        <h3>CSS for Beginners</h3>
+        <p>Style your website and make it look great using CSS.</p>
+    </div>
+
+    <div class="course">
+        <h3>JavaScript Essentials</h3>
+        <p>Make your website interactive with JavaScript basics.</p>
+    </div>
+
+    <div class="buttons">
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 E-Learn Portal. All rights reserved.
+</footer>
+
+</body>
+</html>
